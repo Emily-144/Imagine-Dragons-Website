@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Music Survey</title>
+    <style>
+        a {
+            color: white;
+        }
+        table, th, td {
+            border: 2px solid white;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 10px;
+            font-size: 50px;
+        }
+        a:hover {
+            color: cyan;
+        }
+    </style>
+</head>
+<body style="background: url('background2.jpg'); no-repeat; background-size: 100% 100%; color: white;">
+
+    <center>
+
+        <h1 style="font-size: 150px; margin: 25px 0;"><u>Music Survey</u></h1>
+
+        <form>
+            <fieldset style="border: 2px solid white; background-color: rgba(0, 0, 0, 0.5);">
+
+                <label for="band"><h3 style="font-size: 50px; margin-bottom: 20px;">Favorite Band</h3></label>
+                <input type="text" id="band" style="height: 50px; font-size: 25px;" />
+
+                <h3 style="font-size: 50px; margin-bottom: -5px;">Favorite Instrument</h3>
+                <sub style="font-size: 25px;">You can choose more than one</sub>
+
+                <table style="margin-top: 25px;">
+                    <tr>
+                        <th></th>
+                        <th>Small</th>
+                        <th>Large</th>
+                    </tr>
+                    <tr>
+                        <td>Strings</td>
+                        <td><input type="checkbox"> Violin</td>
+                        <td><input type="checkbox"> Bass</td>
+                    </tr>
+                    <tr>
+                        <td>Woodwind</td>
+                        <td><input type="checkbox"> Flute</td>
+                        <td><input type="checkbox"> Saxophone</td>
+                    </tr>
+                    <tr>
+                        <td>Brass</td>
+                        <td><input type="checkbox"> Trumpet</td>
+                        <td><input type="checkbox"> Tuba</td>
+                    </tr>
+                    <tr>
+                        <td>Percussion</td>
+                        <td><input type="checkbox"> Triangle</td>
+                        <td><input type="checkbox"> Drums</td>
+                    </tr>
+
+                </table>
+
+                <br /><br /><br /><br />
+
+            </fieldset>
+        </form> <!--Not a real form, so no submit button-->
+
+        <div id="birds" style="border: 2px solid white; background-color: rgba(0, 0, 0, 0.5); margin: 10px 150px;">
+            <h3 style="font-size: 50px; margin-bottom: 20px;"><u>Birds Animated Video</u></h3>
+
+            <video controls style="margin-bottom: 50px;">
+                <source src="video1.mp4" type="video/mp4" />
+            </video>
+
+        </div>
+
+        <p style="font-size: 50px; margin: 10px 0;"><a href="index.html"><i>Home</i></a></p>
+
+    </center>
+
+</body>
+</html>
